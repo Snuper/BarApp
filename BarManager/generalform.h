@@ -1,6 +1,26 @@
 #ifndef GENERALFORM_H
 #define GENERALFORM_H
 
+#include <QtCharts/QChartView>
+#include <QtCharts/QBarSeries>
+#include <QtCharts/QBarSet>
+#include <QtCharts/QLegend>
+#include <QtCharts/QBarCategoryAxis>
+#include <QtCharts/QValueAxis>
+#include <QtCharts/QLogValueAxis>
+#include <QtCharts/QLineSeries>
+#include <QtCharts/QValueAxis>
+#include <QtCharts/QChart>
+#include <QtCharts/QChartView>
+#include <QtCharts/QDateTimeAxis>
+#include <QtCharts/QChart>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QMainWindow>
+#include <QtCore/QDateTime>
+#include <QtCharts/QDateTimeAxis>
+#include <QtCore/QFile>
+#include <QtCore/QTextStream>
+#include <QtCore/QDebug>
 #include <QMainWindow>
 #include <string>
 #include <iostream>
@@ -42,12 +62,15 @@ private:
     Logger _log; //Логгер
     RangeForm _rangeMenu;
 
+    QtCharts::QChartView *chartView = nullptr;
+
     //Функции для работы со столами
         std::vector<Table>_tableArrea;
 
         void openTable();
         void deleteTable(unsigned int);
         void showAllTable();
+        void updateCharts();
     //
 
     //Формы

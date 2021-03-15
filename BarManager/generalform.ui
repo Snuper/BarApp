@@ -17,18 +17,16 @@
    <string notr="true">background-color: rgb(86, 86, 86);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTableWidget" name="tableWidget_2">
+   <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>41</y>
+      <y>40</y>
       <width>691</width>
       <height>431</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
+    <layout class="QHBoxLayout" name="ChartsHorizontalLayout"/>
    </widget>
    <widget class="QWidget" name="">
     <property name="geometry">
