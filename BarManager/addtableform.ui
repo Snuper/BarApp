@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddTableForm</class>
+ <widget class="QWidget" name="AddTableForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Table</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(86, 86, 86);</string>
+  </property>
+  <widget class="QTableWidget" name="AddedMenuTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>9</y>
+     <width>256</width>
+     <height>281</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OkPushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>269</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="MenuTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>9</y>
+     <width>251</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
